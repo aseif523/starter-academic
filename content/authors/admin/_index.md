@@ -1,6 +1,6 @@
 ---
 # Display name
-title: Ala Seif
+title: Ala'a Seif
 
 # Is this the primary user of the site?
 superuser: true
