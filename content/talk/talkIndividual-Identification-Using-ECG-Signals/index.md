@@ -22,13 +22,13 @@ date: 2018-01-01
 #all_day: true
 
 # Schedule page publish date (NOT talk date).
-publishDate: 2020-12-06T23:49:01+03:00
+#publishDate: 2020-12-06T23:49:01+03:00
 
-authors: []
+authors: [Mohammad Diab, Ala'a Seif]
 tags: []
 
 # Is this a featured talk? (true/false)
-featured: TRUE
+featured: true
 
 # Featured image
 # To use, add an image named `featured.jpg/png` to your page's folder. 
