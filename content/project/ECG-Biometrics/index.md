@@ -4,7 +4,7 @@
 title: "ECG Biometrics"
 summary: "Investigate the use of ECG as biometrics."
 authors: []
-tags: [Biometrics, Biosignal Analysis, ECG]
+tags: [Biometric, Biosignal Analysis, ECG]
 categories: []
 date: 2020-12-07T21:15:02+03:00
 
