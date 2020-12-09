@@ -27,9 +27,9 @@ image:
 #   Otherwise, set `projects = []`.
 projects: []
 ---
-If you are like any other millennial, then you thrive on procrastination and do your best work when you’re in a time crunch. R got you covered there too! Fun is a package of R games and other funny stuff, such as the classical Mine sweeper and sliding puzzles. It also has a random password generator and a memory test.
+If you are like any other millennial, then you thrive on procrastination and do your best work when you’re in a time crunch. R got you covered there too! Fun is a package of R games and other funny stuff, such as the classical mine sweeper and sliding puzzles. It also has a random password generator and a memory test.
 
-Start the script by to check whether windows or Linux/Mac. Then by choosing the game and its arguments. 
+Start the script by interactive function for either windows or Linux/Mac. Then by choosing the game and its arguments. 
 
 **Mine Sweeper**
 
@@ -46,17 +46,17 @@ Start the script by to check whether windows or Linux/Mac. Then by choosing the 
 
 **Sliding Puzzle**
 
- if (interactive()) {
+    if (interactive()) {
     
-    if (.Platform$OS.type == "windows") 
+        if (.Platform$OS.type == "windows") 
         
-        x11() else x11(type = "Xlib")
+            x11() else x11(type = "Xlib")
     
-    sliding_puzzle()
-    }
+                sliding_puzzle()
+                 }
 
     
 {{< figure src="2.png">}}
 
 
-To know more about the other games and test, check the [R-documentation](https://www.rdocumentation.org/packages/fun/versions/0.2).
+To know more about the other games and test, check the [R-documentation Guide](https://www.rdocumentation.org/packages/fun/versions/0.2).

@@ -2,7 +2,7 @@
 # Documentation: https://wowchemy.com/docs/managing-content/
 
 title: "Sensory Processing in Autism"
-summary: "Study sensory processing in Autism through acoustic startle response and auditory brainstem response"
+summary: "Study sensory processing in Autism through acoustic startle response and auditory brainstem response."
 authors: []
 tags: [Autism, Sensory Processing, Acoustic Startle Response, Auditory Brainstem Response]
 categories: []

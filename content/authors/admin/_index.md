@@ -11,10 +11,10 @@ role: M.Sc Candidate Neuroscience
 # Organizations/Affiliations
 organizations:
 - name: University of Western Ontario
-  url: www.uwo.ca
+  url: https://www.uwo.ca/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ala’a is a M.Sc candidate in the Neuroscience program. she studies the sensory processing through startle respose and  brainstem responses of autistic children under the supervision of Dr. Ryan Stevenson in [Sensory Preception Lab](https://sensorylab.ca/)  and Dr. Susanne Schmid in [The Schmid Lab](http://www.theschmidlab.com/).
+bio: Ala’a is a M.Sc candidate in the Neuroscience program. she studies the sensory processing through startle respose and  brainstem responses of autistic children under the supervision of Dr.Ryan Stevenson in [Sensory Preception Lab](https://sensorylab.ca/)  and Dr.Susanne Schmid in [The Schmid Lab](http://www.theschmidlab.com/).
 
 interests:
 - Sensory Processing 
@@ -48,6 +48,10 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/aseif523
+
+- icon: linkedin
+  icon_pack: fab
+  link: http://linkedin.com/in/ala-a-seif-40353293
 #- icon: google-scholar
 #icon_pack: ai
 # link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ

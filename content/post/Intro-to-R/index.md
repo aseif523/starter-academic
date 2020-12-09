@@ -37,7 +37,7 @@ The first step you need to do is to download and install R and RStudio:
  2.	[RStudio](https://rstudio.com/products/rstudio/download/#download) (Download/Install)
 
 
-The first trick of working with R is to keep all your data, scripts and project in one folder, your directory. In the first blog post we’ll learn the basics of importing your data and view it. 
+The first trick of working with R is to keep all your data, scripts and project in one folder, your directory. In the first blog post we’ll learn the basics of importing your data and viewing it. 
 When starting Rstudio:
 
 1.	Choose New Directory
@@ -48,11 +48,12 @@ When starting Rstudio:
 
 {{< figure src="blog 1.png">}}
 
-R is a highly collaborative software in which many have previously made packages that make your life easier. Readxl package lets us import .xlsx files. 
+R is a highly collaborative software in which many have previously made packages that make your life easier. Readxl package lets us import and tidyverse is used for exploring your dataset. 
 
 You could install different packages by:
 
-    Install.packages( “ readxl “)
+    Install.packages(“readxl")
+    Install.packages(“tidyverse")
 
 
 You could also check if a package is installed by
@@ -63,18 +64,19 @@ You could also check if a package is installed by
 
 Every time you need to use functions in a package you need to call its library first.
 
-    Library (readxl)
+    library (readxl)
+    library (tidyverse)
 
 
 Now to upload .xlsx file
 
 
-    Bfi <- read_excel (“bfi.xlsx”)
+    bfi <- read_excel (“bfi.xlsx”)
 
 
 Or if your data is in .csv
 
-    Bfi <- read.excel (“bfi.csv”)
+    bfi <- read.csv (“bfi.csv”)
 
 
 Names shows us the column names
@@ -87,8 +89,9 @@ Head previews the first rows and tails previews the last six rows.
 
 
     Head(bfi)
-    Tail(bfi)*
+    Tail(bfi)
 
+{{< figure src="3.png">}}
 
 To view the entire data
 
@@ -96,8 +99,8 @@ To view the entire data
     View(bfi)
 
 
-When you need help theres a function for that too, it returns a tab with description, usage and arguments of the function asked about.
+When you need help there's a function for that too, it returns a tab with description, usage and arguments of the function asked about.
 
     Help(head)
 
-{{< figure src="blog 2.png">}}
+{{< figure src="4.png">}}

@@ -54,7 +54,11 @@ date_format = "Jan 2006"
   date_end = "2015-12-30"
   description = ""
 
-
+[design.background]
+# Background image.
+  image = "background.png"  # Name of image in `static/media/`.
+  image_darken = 0.2  # Darken the image? Range 0-1 where 0 is transparent and 1 is opaque.
+  
  
 
 +++
