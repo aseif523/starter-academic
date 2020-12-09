@@ -73,31 +73,44 @@ Some useful functions in patchwork:
 
 Explanation: To add an empty area in between plots	
 
-Syntax: p1 + plot_spacer() + p2 + plot_spacer() + p3 + plot_spacer() 
+    patch_5<- pl.timeline + plot_spacer()+ plot_spacer()+pl.meanRefPerCap   
 
+{{< figure src="7.png">}}
 
 **wrap_plots()**
 
 Explanation: makes it easy to take a list of plots and add them into one composition	
 
-Syntax: wrap_plots(p1, p2, p3, p4)
+     wrap_plots(pl.Syria, pl.Lebanon, pl.refugee_Lebanon_Syria)
+
+{{< figure src="8.png">}}
 
 **plot_layout()**
 
 Explanation: controls how different plots are layed out	
 
-Syntax: plot_layout(widths = c(2, 1))
+    wrap_plots(pl.Syria, pl.Lebanon, pl.refugee_Lebanon_Syria) + plot_layout(widths = c(2, 1))
+
+{{< figure src="9.png">}}
 
 **plot_annotation()**
 
 Explanation: controls different aspects of the annotation and tagging	
 
-Syntax: p1 + p2 + plot_annotation('This is a title', caption = 'made with patchwork')
+    pl.Syria + pl.Lebanon + plot_annotation('Refugees per Capita', caption = 'Shows the influx of refugees from Syria to Lebanon after the start of Syrian civil war ')
+
+{{< figure src="10.png">}}
 
 **align_patches()**
 
-Explanation: Aligns different plots together	
+Explanation: Aligns different plots together, both figures will have same dimensions based on max dimensions	
 
-Syntax:align_patches(p1, p2, p3, p4)	
+    max_dim<- get_max_dim(pl.Lebanon, pl.refugee_Lebanon_Syria) #get maximum dimensions
+    aligned_plots <- align_patches(pl.Lebanon, pl.refugee_Lebanon_Syria)
+    p1<-aligned_plots[[1]]
+    p2<-aligned_plots[[2]]
 
-This is a general idea of the possible functions, if you want o know more about optional arguments in them and see more examples check their [guide]( https://patchwork.data-imaginist.com/index.html).
+{{< figure src="11.png">}}
+{{< figure src="12.png">}}
+
+This is a general idea of the possible functions, if you want to know more about optional arguments in them and see more examples check their [guide]( https://patchwork.data-imaginist.com/index.html).

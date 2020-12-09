@@ -14,7 +14,7 @@ organizations:
   url: www.uwo.ca
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ala’a is a M.Sc candidate in the Neuroscience program. She completed her B.Sc and M.Sc in biomedical engineering at Rafik Hariri University in Lebanon, where she researched the use of electrocardiograms for personal identification and recognition. Afterwards, she worked as a business developer in a medical 3D printing company, but she always missed research. Now, she studies the sensory processing through startle respose and  brainstem responses of autistic children under the supervision of Dr. Ryan Stevenson in [Sensory Preception Lab](https://sensorylab.ca/)  and Dr. Susanne Schmid in [The Schmid Lab](http://www.theschmidlab.com/).Outside the lab, she enjoys exploring new places, and amidst the pandemic she realized that she loves building jigsaw puzzles. 
+bio: Ala’a is a M.Sc candidate in the Neuroscience program. she studies the sensory processing through startle respose and  brainstem responses of autistic children under the supervision of Dr. Ryan Stevenson in [Sensory Preception Lab](https://sensorylab.ca/)  and Dr. Susanne Schmid in [The Schmid Lab](http://www.theschmidlab.com/).
 
 interests:
 - Sensory Processing 

@@ -23,8 +23,8 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 #publishDate: 2020-12-07T15:34:51+03:00
 
-authors: [Ala'a Seif]
-tags: []
+authors: [Ala'a Seif, Myriam Chamaa, Abedelaziz Shaheen, Rascha Awada, Ramzi Halabi, Mohammad Diab]
+tags: [EEG, Binaural]
 
 # Is this a featured talk? (true/false)
 featured: false

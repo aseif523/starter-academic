@@ -23,8 +23,8 @@ all_day: true
 # Schedule page publish date (NOT talk date).
 #publishDate: 2020-12-07T15:30:11+03:00
 
-authors: [Ala'a Seif]
-tags: []
+authors: [Ala'a Seif, Mohammad Diab, Mohammad El-Abed]
+tags: [ECG, Biometric]
 
 # Is this a featured talk? (true/false)
 featured: true

@@ -24,8 +24,8 @@ date: 2018-01-01
 # Schedule page publish date (NOT talk date).
 #publishDate: 2020-12-06T23:49:01+03:00
 
-authors: [Mohammad Diab, Ala'a Seif]
-tags: []
+authors: [Ala'a Seif, Mohammad Diab, Mohammad El-Abed]
+tags: [ECG, Biometric]
 
 # Is this a featured talk? (true/false)
 featured: true
