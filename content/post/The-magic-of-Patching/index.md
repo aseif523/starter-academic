@@ -59,7 +59,7 @@ You could also patch with text for form a figure including explanation.
 
 Text wrap function is used it you want to place the text first then the graph.
 
-     patch_3<-wrap_elements(grid::textGrob('Text on left side')) + pl.meanRefPerCap
+     patch_3<- wrap_elements(grid::textGrob('Text on left side')) + pl.meanRefPerCap
 {{< figure src="5.png">}}
 
 It’s possible to mix different operators. 
@@ -81,7 +81,7 @@ Explanation: To add an empty area in between plots
 
 Explanation: makes it easy to take a list of plots and add them into one composition	
 
-     wrap_plots(pl.Syria, pl.Lebanon, pl.refugee_Lebanon_Syria)
+     patch_6<- wrap_plots(pl.Syria, pl.Lebanon, pl.refugee_Lebanon_Syria)
 
 {{< figure src="8.png">}}
 
@@ -89,7 +89,7 @@ Explanation: makes it easy to take a list of plots and add them into one composi
 
 Explanation: controls how different plots are layed out	
 
-    wrap_plots(pl.Syria, pl.Lebanon, pl.refugee_Lebanon_Syria) + plot_layout(widths = c(2, 1))
+    patch_7<- wrap_plots(pl.Syria, pl.Lebanon, pl.refugee_Lebanon_Syria) + plot_layout(widths = c(2, 1))
 
 {{< figure src="9.png">}}
 
@@ -97,7 +97,8 @@ Explanation: controls how different plots are layed out
 
 Explanation: controls different aspects of the annotation and tagging	
 
-    pl.Syria + pl.Lebanon + plot_annotation('Refugees per Capita', caption = 'Shows the influx of refugees from Syria to Lebanon after the start of Syrian civil war ')
+    patch_8<- pl.Syria + pl.Lebanon + plot_annotation('Refugees per Capita', 
+    caption = 'Shows the influx of refugees from Syria to Lebanon after the start of Syrian civil war ')
 
 {{< figure src="10.png">}}
 
